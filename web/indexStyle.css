@@ -1,0 +1,311 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    position: absolute;
+    background-image: linear-gradient(rgb(58, 66, 68), silver);
+    background-size: cover;
+    width: 100%;
+    height: 8%;
+    z-index: 150;
+}
+
+#heading h1 {
+    float: left;
+    margin: 12px 0px 0 30px;
+    color: antiquewhite;
+    font-family: cursive;
+    font-size: 30px;
+    text-shadow: 0 3px 5px black;
+}
+
+#heading img {
+    float: left;
+    margin: 20px 10px 0 10px;
+    width: 35px;
+    height: 35px;
+}
+
+#menu-bar ul {
+    display: inline-block;
+    list-style-type: none;
+    text-align: right;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+#menu-bar li {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 16px;
+}
+
+#menu-bar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    color: antiquewhite;
+    border-radius: 2px;
+}
+
+#menu-bar a:hover {
+    background-color: floralwhite;
+    color: #7d8b92;
+    text-shadow: 0 0 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+#movie {
+    background-image: radial-gradient(darkgrey, white);
+    height: 87%;
+    width: 100%;
+    position: absolute;
+    top: 8%;
+}
+
+#desc {
+    position: absolute;
+    height: 50%;
+    width: 35%;
+    top: 75px;
+    right: 15%;
+    border: 1px solid #496d7e;
+    border-radius: 15px;
+}
+
+#description {
+    position: absolute;
+    width: 94%;
+    height: 75%;
+    font-size: 16px;
+    font-family: Playfair Display;
+    letter-spacing: 1px;
+    line-height: 24px;
+    background-color: #496d7e;
+    color: silver;
+    border-radius: 15px 15px 0 0;
+    padding: 3%;
+}
+
+#towatch {
+    position: absolute;
+    bottom: 0px;
+    height: 15%;
+    width: 100%;
+    background-color: #b6d3e9;
+    background-image: linear-gradient(#b6d3e9, #e3f3ff);
+    font-size: 14px;
+    color: #305363;
+    border-radius: 0 0 15px 15px;
+    cursor: pointer;
+}
+
+#towatch:hover {
+    background: linear-gradient(#e3ffe6, #b6e9bc);
+}
+
+#towatch span {
+    position: absolute;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 600;
+    left: 40%;
+    top: 20px;
+}
+
+#towatch a {
+    position: absolute;
+    left: 58%;
+    top: 3px;
+    background-image: url('./watch.png');
+    background-size: cover;
+    margin-top: 5px;
+    width: 45px;
+    height: 45px;
+}
+
+#gallery {
+    position: absolute;
+    bottom: 0px;
+    height: 64px;
+    width: 100%;
+    background-color: #b6d3e9;
+    background-image: linear-gradient(#b6d3e9, #e3f3ff);
+    font-size: 14px;
+    color: #305363;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+}
+
+#gallery:hover {
+    background: linear-gradient(#e3ffe6, #b6e9bc);
+}
+
+#gallery span {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 600;
+    bottom: 3px;
+    left: 98px;
+}
+
+#gallery a {
+    position: absolute;
+    left: 110px;
+    top: 4px;
+    background-image: url('./gallery.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+
+#like-or-leave {
+    background-color: azure;
+    z-index: 100;
+    display: inline-block;
+    position: absolute;
+    width: 80px;
+    left: 37%;
+    top: 10%;
+    text-align: center;
+    border: 3px solid #d4e2e9;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.arrows {
+    margin: 30px 0;
+    opacity: .3;
+}
+
+.arrow {
+    margin: 5px 0;
+}
+
+#arrow-up,
+#arrow-down {
+    width: 55px;
+    height: 55px;
+}
+
+#dislike,
+#like {
+    border: none;
+    background-color: inherit;
+    width: 50px;
+    height: 50px;
+}
+
+#dislike {
+    background-image: url(./garbage.png);
+    background-size: cover;
+}
+
+#like {
+    background-image: url(./heart.png);
+    background-size: cover;
+}
+
+#movie-holder {
+    position: absolute;
+    min-width: 15%;
+    max-width: 15%;
+    height: 65%;
+    top: 75px;
+    left: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4);
+    border: 1px solid #496d7e;
+    border-radius: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    color: #496d7e;
+    font-family: serif;
+}
+
+#movie-holder img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid silver;
+}
+
+#movie-info h1 {
+    color: darkslategray;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+#movie-info {
+    position: absolute;
+    width: 100%;
+    height: 13%;
+    padding: 5px 0;
+    border-bottom: 1px solid silver;
+}
+
+.director {
+    font-size: 18px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 5%;
+    background-image: linear-gradient( silver, rgb(58, 66, 68));
+}
+
+footer p {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 100;
+    margin: 10px;
+    display: inline-block;
+}
+
+footer a {
+    float: right;
+}
+
+footer a:hover {
+    cursor: pointer;
+}
+
+#fb {
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    background-image: url(./facebook.png);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+
+#twitter {
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    background-image: url(./twitter.png);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+
+#google {
+    float: right;
+    margin-top: 5px;
+    margin-right: 35px;
+    background-image: url(./google-plus.png);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}

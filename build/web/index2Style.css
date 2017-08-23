@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image:url('./background2.jpg');
+}
+header {
+    position: absolute;
+    background-image: linear-gradient(rgb(58, 66, 68), silver);
+    background-size: cover;
+    width: 100%;
+    height: 8%;
+    z-index: 150;
+}
+
+#heading h1 {
+    float: left;
+    margin: 12px 0px 0 30px;
+    color: antiquewhite;
+    font-family: cursive;
+    font-size: 30px;
+    text-shadow: 0 3px 5px black;
+}
+
+#heading img {
+    float: left;
+    margin: 20px 10px 0 10px;
+    width: 35px;
+    height: 35px;
+}
+
+#menu-bar ul {
+    display: inline-block;
+    list-style-type: none;
+    text-align: right;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+#menu-bar li {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 16px;
+}
+
+#menu-bar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    color: antiquewhite;
+    border-radius: 2px;
+}
+
+#menu-bar a:hover {
+    background-color: floralwhite;
+    color: #7d8b92;
+    text-shadow: 0 0 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 5%;
+    background-image: linear-gradient( silver, rgb(58, 66, 68));
+}
+
+footer p {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 100;
+    margin: 10px;
+    display: inline-block;
+}
+
+footer a {
+    float: right;
+}
+
+footer a:hover {
+    cursor: pointer;
+}
+
+#fb {
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    background-image: url(./facebook.png);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+
+#twitter {
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    background-image: url(./twitter.png);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+
+#google {
+    float: right;
+    margin-top: 5px;
+    margin-right: 35px;
+    background-image: url(./google-plus.png);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+
+#content {
+    z-index: 1000;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width: 55%;
+    height: 68%;
+    background-image: radial-gradient(white,silver);
+    opacity: .9;
+    border-radius: 10px 10px ;
+}
+
+#movie-title {
+    text-align: center;
+    background-image: linear-gradient(#b6d3e9, #e3f3ff);
+    padding: 10px;
+    color: rgb(40, 57, 70);
+    border-radius: 10px 10px 0 0;
+}
+
+#movie-content {
+    background-color: green;
+}
+
+#cover {
+    height: 500px;
+    position: absolute;
+    left: 0px;
+}
+
+#description {
+    position: absolute;
+    right: 1%;
+    top: 13%;
+    width: 62%;
+    height: 470px;
+    font-size: 20px;
+    overflow-y: scroll;
+}
+
+#watch {
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    height: 10%;
+    width: 100%;
+    background-image: linear-gradient(#b6d3e9, #e3f3ff);
+    border-radius: 0 0 10px 10px;
+}
+
+#watch:hover {
+    background: linear-gradient(#e3ffe6, #b6e9bc);
+    cursor: pointer;
+}
+
+#watch:hover span {
+    color: rgb(40, 57, 70);
+}
+
+#watch>a>span {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    bottom: 30%;
+    right: 1%;
+    color: rgb(40, 57, 70);
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+#watch>a>img {
+    margin-top: .5%;
+    height: 90%;
+}
